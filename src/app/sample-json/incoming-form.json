@@ -1,30 +1,40 @@
 {
-    "clientId": 10080,
-    "formName": "Warranty and Contracts",
-    "fields": [
-        {
-            "element": "input",
-            "type": "text",
-            "label": "First Name",
-            "order": 1,
-            "attributes": {
-                "placeholder": "Enter name",
-                "name": "firstName",
-                "id": "firstName",
-                "formControleName": "firstName",
-                "value": ""
-            },
-            "properties": {
-              "minLength": 0,
-              "maxLength": 10,
-              "validators": {
-                "required": true,
-                "pattern": null,
-                "email": false
-              }
-            },
-            "events": ["focus", "blur", "input", "change"],
-            "methods": ["reset", "validate", "disable", "enable"]
-          }
-    ]
+  "_clientId": 10080,
+  "_formName": "Warranty and Contracts",
+  "_fields": [
+    {
+      "_element": "input",
+      "_type": "text",
+      "_label": "First Name",
+      "_order": 1,
+      "_attributes": {
+        "_placeholder": "Enter name",
+        "_name": "firstName",
+        "_id": "firstName",
+        "_formControlName": "firstName",
+        "_value": ""
+      },
+      "_properties": {
+        "_minLength": 0,
+        "_maxLength": 10,
+        "_validators": {
+          "_required": true,
+          "_pattern": null,
+          "_email": false
+        }
+      },
+      "_events": [
+        "_focus",
+        "_blur",
+        "_input",
+        "_change"
+      ],
+      "_methods": [
+        "_reset",
+        "_validate",
+        "_disable",
+        "_enable"
+      ]
+    }
+  ]
 }

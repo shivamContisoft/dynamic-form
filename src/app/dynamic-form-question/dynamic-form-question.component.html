@@ -1,4 +1,4 @@
-<div [formGroup]="form">
+<!-- <div [formGroup]="form">
     <label [attr.for]="question.key">{{question.label}}</label>
 
     <div [ngSwitch]="question.controlType">
@@ -8,8 +8,11 @@
         <select [id]="question.key" *ngSwitchCase="'dropdown'" [formControlName]="question.key">
             <option *ngFor="let opt of question.options" [value]="opt.key">{{opt.value}}</option>
         </select>
-
+    
+     
     </div>
 
     <div class="errorMessage" *ngIf="!isValid">{{question.label}} is required</div>
-</div>
+</div> -->
+
+

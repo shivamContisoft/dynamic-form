@@ -14,31 +14,31 @@ export class QuestionService {
 
     const questions: QuestionBase<string>[] = [
 
-      new DropdownQuestion({
-        key: 'brave',
-        label: 'Bravery Rating',
-        options: [
-          { key: 'solid', value: 'Solid' },
-          { key: 'great', value: 'Great' },
-          { key: 'good', value: 'Good' },
-          { key: 'unproven', value: 'Unproven' }
-        ],
-        order: 1
-      }),
+      // new DropdownQuestion({
+      //   key: 'brave',
+      //   label: 'Bravery Rating',
+      //   options: [
+      //     { key: 'solid', value: 'Solid' },
+      //     { key: 'great', value: 'Great' },
+      //     { key: 'good', value: 'Good' },
+      //     { key: 'unproven', value: 'Unproven' }
+      //   ],
+      //   order: 1
+      // }),
 
       new TextboxQuestion({
         key: 'firstName',
         label: 'First name',
         value: 'Bombasto',
         required: true,
-        order: 2
+        order: 1
       }),
 
       new TextboxQuestion({
         key: 'emailAddress',
         label: 'Email',
         type: 'email',
-        order: 3
+        order: 2
       })
     ];
 
